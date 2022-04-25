@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="포트폴리오 설명">
+  <meta name="keywords" content="포트폴리오 키워드들">
+  <link rel="stylesheet" href="./css/reset.css">
+  <title>홍길동 포트폴리오</title>
+</head>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+  :root{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+  }
+
+  .skip-menu h4{
+    font-size: 0;
+  }
+  .skip-menu a{
+    position: fixed;
+    left: 50%;
+    top: -50%;
+    transform: translate(-50%, 0);
+    border-radius: 5px;
+    padding: 10px 0px;
+    background-color: #000;
+    font-weight: 700;
+    font-size:  32px;
+    color: #fff;
+  }
+  .skip-menu a:focus{
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .wrap{
+    padding: 20px 0;
+  }
+
+  .header{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #fff;
+  }
+  .header .container{
+    margin: 0 20px;
+
+  }
+
+  .header .row{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header h1 a{
+    font-weight: 700;
+    font-size: 1.2em;
+  }
+
+
+
+
+</style>
+<body>
+  <!-- 웹 접근성 -->
+  <div class="skip-menu">
+    <h4>스킵메뉴</h4>
+    <ul>
+      <li><a href="#home">홈</a></li>
+      <li><a href="#portfolio">포트폴리오</a></li>
+      <li><a href="#profile">내 소개</a></li>
+      <li><a href="#skills">할수 있는 것</a></li>
+    </ul>
+  </div>
+
+  <div class="wrap">
+
+    <header class="header" id="home">
+      <div class="container">
+        <div class="orw">
+          <h1><a href="#">GILDONG HONG</a></h1>
+          <p><a href="#">gildong hong</a></p>
+        </div>
+      </div>
+    </header>
+
+    <section class="section jumbo">
+      <div class="container">
+        <div class="row">
+          <div class="sec-tit">
+            <h2>Creative</h2>
+            <h3>PORTFOLIO</h3>
+          </div>
+          <div class="sec-conts">
+            <div class="scrl">
+              <div class="scrl-border">
+                <div class="move-point"></div>
+              </div>
+            </div>
+            <div class="scrl-txt">SCROLL DOWN</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section profile" id="profile">
+      <div class="container">
+        <div class="row">
+          <div class="sec-tit">
+            <h2>Profile</h2>
+          </div>
+          <div class="sec-conts">
+            <div class="card card-left">
+              <div class="card-front">
+                <h3>EDUCATION</h3>
+              </div>
+              <div class="card-back">
+                <p><span>2020</span><span>한국고등학교 졸업</span></p>
+                <p><span>2022</span><span>한국대학교 3학년 재학</span></p>
+              </div>
+            </div>
+
+            <div class="card card-middle">
+              <div class="card-front">
+                <h3>PROFILE</h3>
+              </div>
+              <div class="card-back">
+                <p><img src="./images/avatar.jpg" alt="홍길동사진"></p>
+                <p><span>GILDONG HONG</span></p>
+                <p><span>AGE : 26</span></p>
+                <p><span>경기도 부천시</span></p>
+                <p><span>010-111-1122</span></p>
+              </div>
+            </div>
+
+            <div class="card card-right">
+              <div class="card-front">
+                <h3>QUALIFICATE</h3>
+              </div>
+              <div class="card-back">
+                <p><span>2020</span><span>운전면허 1종 보통</span></p>
+                <p><span>2022</span><span>컴퓨터그래픽스운용기능사</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section portfolio" id="portfolio">
+      <div class="row">
+        <div class="sec-tit">
+          <h2>PORTFOLIO</h2>
+        </div>
+        <div class="sec-conts">
+          <div class="port port1">
+            <div class="port-img">
+              <img src="./images/work1.jpg" alt="포트폴리오1 웹표준 미리보기">
+            </div>
+            <div class="port-content">
+              <h3>WEB STANDARD</h3>
+              <h4>WEB<br>STANDARD</h4>
+            </div>
+          </div>
+
+          <div class="port port2">
+            <div class="port-img">
+              <img src="./images/work2.jpg" alt="포트폴리오2 웹표준 미리보기">
+            </div>
+            <div class="port-content">
+              <h3>WEB STANDARD</h3>
+              <h4>WEB<br>STANDARD</h4>
+            </div>
+          </div>
+
+          <div class="port port3">
+            <div class="port-img">
+              <img src="./images/work3.jpg" alt="포트폴리오3 웹표준 미리보기">
+            </div>
+            <div class="port-content">
+              <h3>WEB STANDARD</h3>
+              <h4>WEB<br>STANDARD</h4>
+            </div>
+          </div>
+
+          <div class="port port4">
+            <div class="port-img">
+              <img src="./images/work4.jpg" alt="포트폴리오4 웹표준 미리보기">
+            </div>
+            <div class="port-content">
+              <h3>WEB STANDARD</h3>
+              <h4>WEB<br>STANDARD</h4>
+            </div>
+          </div>
+
+          <div class="port port5">
+            <div class="port-img">
+              <img src="./images/work5.jpg" alt="포트폴리오5 웹표준 미리보기">
+            </div>
+            <div class="port-content">
+              <h3>WEB STANDARD</h3>
+              <h4>WEB<br>STANDARD</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="sec-tit">
+        <h2>SKILLS</h2>
+      </div>
+      <div class="sec-conts">
+        <div class="skill skill-ps">
+          <img src="./images/ps.png" alt="포토샾 로고 이미지">
+          <p>PHOTOSHOP</p>
+        </div>
+      </div>
+      <div class="sec-conts">
+        <div class="skill skill-ai">
+          <img src="./images/ai.png" alt="일러스트레이터 로고 이미지">
+          <p>ILLUSTRATOR</p>
+        </div>
+      </div>
+      <div class="sec-conts">
+        <div class="skill skill-html">
+          <img src="./images/html.png" alt="HTML 로고 이미지">
+          <p>HTML5</p>
+        </div>
+      </div>
+      <div class="sec-conts">
+        <div class="skill skill-css">
+          <img src="./images/css.png" alt="CSS 로고 이미지">
+          <p>CSS</p>
+        </div>
+      </div>
+      <div class="sec-conts">
+        <div class="skill skill-js">
+          <img src="./images/js.png" alt="자바스크립트 로고 이미지">
+          <p>javaScript</p>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="section thank-you">
+      <div class="container">
+        <div class="row">
+          <p>Thank you for visition <br> my portfolio</p>
+        </div>
+      </div>
+    </section>
+
+    
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <address></address>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+  
+</body>
+</html>
